@@ -31,6 +31,7 @@ const config = {
   settings: {
     alwaysOnline: true,
     antiCall: true,
+    autoBackupSw: true,
     autoBio: true,
     autoFollowNewsletter: false,
     autoJoinGc: false,
