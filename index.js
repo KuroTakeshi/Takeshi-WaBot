@@ -217,7 +217,7 @@ async function system() {
         await sock.groupAcceptInvite(config.inviteCode);
       }
       if (config.settings.autoFollowNewsletter) {
-        await sock.newsletterFollow(config.id.newsletter);
+        await sock.subscribeNewsletterUpdates(config.id.newsletter);
       }
 
       const currentTime = moment().tz("Asia/Jakarta");
