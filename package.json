@@ -23,7 +23,7 @@
     "acrcloud": "^1.4.0",
     "awesome-phonenumber": "^7.2.0",
     "axios": "^1.6.7",
-    "baileys": "latest",
+    "baileys": "npm:@fizzxydev/baileys-pro",
     "canvafy": "*",
     "canvas": "^2.11.2",
     "chalk": "^4.1.2",
